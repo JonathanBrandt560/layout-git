@@ -12,7 +12,7 @@ nav {
     justify-content: center;
     align-items: center;
     background-color: mediumblue;
-    gap: 10px;
+    gap: 20px;
     min-height: 50px;
 }
 
@@ -20,7 +20,7 @@ nav {
 a {
   text-decoration: none;
   color: white;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .parent {
@@ -44,7 +44,7 @@ a {
 .itemb {
     flex-basis: 150px;
     display: flex;
-     background-color: chartreuse;
+     background-color:darkolivegreen;
      gap: 5px;
 }
 
@@ -63,14 +63,17 @@ margin:20px;
 
 #item3 {
    background-color:chocolate;
+   margin: 10px;
 }
 
 #item4 {
     background-color: burlywood;
+    margin: 10px;
 }
 
 #item5 {
     background-color: cyan;
+    flex: 2;
 }
 
 #item6 {
@@ -81,4 +84,9 @@ background-color: darkgoldenrod;
     background-color: darkviolet;
 }
 
+.nested {
+  display: flex;
+  flex-direction: column;
+  flex:1;
+}
 
